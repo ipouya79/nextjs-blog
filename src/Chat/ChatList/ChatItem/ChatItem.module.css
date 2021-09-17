@@ -1,0 +1,50 @@
+.chatListContainer {
+  cursor: pointer;
+  transition: box-shadow ease 0.5s;
+}
+
+.chatListContainer:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+.userImageContainer {
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+}
+
+.userImageContainer img {
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.resultsDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resultsDetailsContainer .heading {
+  font-weight: bolder;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resultsDetailsContainer .subText {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lastChatDate {
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  font-size: 12px;
+}

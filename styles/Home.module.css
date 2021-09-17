@@ -1,0 +1,38 @@
+.sliderMobile{
+margin-bottom: 3rem;
+}
+
+
+
+/* my style */
+
+
+@media only screen and (min-width: 768px){
+
+  .mobileContainer{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .topPostMobile{
+    display:none;
+    margin: 0 auto;
+    text-align: center;
+}
+  .favoriteAut{
+    margin: 0 auto;
+    width: 70%;
+  }
+  .sliderMobile{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .divvsidebarrpup{
+    margin-right: 1.5rem;
+    padding: 1rem;
+  }
+ 
+}

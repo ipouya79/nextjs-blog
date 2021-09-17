@@ -1,0 +1,36 @@
+.subHeader {
+  position: relative;
+}
+
+.subHeader::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 40px);
+  height: 1px;
+  background-color: #dee2e6;
+  top: 0;
+}
+.midSubHeader {
+  position: relative;
+  z-index: 2;
+}
+
+/* .midSubHeader::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 175%;
+  background-color: #dee2e6;
+  top: -5px;
+  left: 0;
+}
+
+.midSubHeader::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 175%;
+  background-color: #dee2e6;
+  top: -5px;
+  right: 0;
+} */

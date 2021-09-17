@@ -1,0 +1,88 @@
+.headerIconsWrapper {
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.headerIconsWrapper span {
+  cursor: pointer !important;
+}
+.headerIconsWrapper a:hover {
+  color: white;
+}
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.headerIconsWrapper i {
+  font-size: 24px;
+  color: #6b6b6b;
+}
+.headerIconsWrapper i.full,
+.headerIconWrapperMobile i.full {
+  animation: wiggle 2s linear infinite !important;
+}
+
+.headerIconsWrapper > div {
+  position: relative;
+}
+.headerIconsWrapper > div:first-of-type {
+  margin-left: -60px !important;
+}
+.headerIconsWrapper > div:last-of-type {
+  margin-left: 10px;
+}
+
+.userBadge {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  left: 14px;
+  top: -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.headerIconWrapperMobile {
+  justify-content: flex-end !important;
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+}
+.headerIconWrapperMobile div:first-of-type {
+  margin-left: 8px;
+}
+.headerIconWrapperMobile div {
+  position: relative;
+  align-self: baseline;
+}
+
+.headerIconWrapperMobile div .userBadge {
+  left: 65%;
+  border-radius: 5px !important;
+  font-size: 12px;
+}

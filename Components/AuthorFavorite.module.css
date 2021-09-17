@@ -1,0 +1,44 @@
+.authorFavorite {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.authorFavorite div > p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+.seprator {
+    margin-top: 1.4rem;
+  border-top: 1px solid grey;
+  width: 45vw;
+}
+.seeAll{
+cursor: pointer;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1300px) {
+  .authorFavorite {
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .showwAll{
+    display: none;
+  }
+  .authorFavorite {
+   margin-right: 3rem;
+  }
+  .seprator {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+  border-top: 1px solid grey;
+}
+
+
+}

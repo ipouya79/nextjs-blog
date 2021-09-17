@@ -1,0 +1,96 @@
+.mainHeaderContainer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .banner  {
+  border-radius: 0.5rem;
+  }
+  .imgBanner{
+    border: none;
+    border-radius: 0.7rem;
+  }
+  .navLine {
+    margin-top: 1rem;
+    box-shadow: 0px 2px 4px 0px #0000004D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.5rem;
+  height:2.5rem;
+  
+  }
+  
+  .rightSide , .leftSide{
+    margin-top: -0.6rem;
+  }
+  
+  .rightSide > li > a {
+    display: inline;
+    cursor: pointer;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 700;
+   
+  
+  }
+  .leftSide {
+    display: flex;
+    justify-content: space-between;
+  }
+  .liMen{
+    list-style: none;   
+}
+.liMen a{
+   font-size: 0.8rem;
+   font-weight: 700;   
+}
+  .city {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+    background: #f96d1e;
+    border: none;
+    border-radius: 0.7rem;
+    padding: 0.05rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    width: 4vw;
+    text-align: center;
+  }
+  
+  .chooseCity {
+    color: #F96D1E;
+    font-size: 0.9rem;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-top: 0.6rem;
+  }
+  .selectoption{
+    border: 0.1rem solid #f96d1e;
+    border-radius: 0.7rem;
+    cursor: pointer;
+  
+  }
+  .iconCity {
+    padding: 0.2rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+  }
+  .mapIcon{
+    margin-left: 0.6rem;
+    margin-top: 0.8rem;
+width: 0.8rem;
+height: 0.8;
+color: #F96D1E;
+}
+  .leftSideText {
+    display: flex;
+  }
+  
+  

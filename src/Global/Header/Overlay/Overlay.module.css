@@ -1,0 +1,41 @@
+.searchBarOverLayResults {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.showStyle {
+  height: 100vh;
+}
+
+.droppedMenu {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  top: 160%;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  left: 0;
+  transition: height ease 0.2s;
+  margin: 0 auto;
+  padding: 0 10px 0;
+}
+
+.droppedMenuHeight {
+  height: 100vh;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+@media only screen and (max-width: 480px) {
+  .droppedMenu {
+    width: 160% !important;
+    right: -30% !important;
+  }
+}

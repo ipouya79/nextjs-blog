@@ -1,0 +1,38 @@
+.containerTags{
+display: flex;
+width: 100%;
+justify-content: flex-start;
+text-align: right;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+}
+.taglabel {
+    font-size: 0.9rem;
+    text-align: right;
+  color: #6b7074;
+}
+.typeTags{
+display: flex;
+margin-left: 0.5rem;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.typeTags>span{
+background-color: #f2f2f2;
+color: #000000;
+border-radius: 16px;
+width: fit-content;
+height: fit-content;
+text-align: center;
+font-size: 0.8rem;
+margin-right: 1.25rem;
+cursor: pointer;
+}
+@media only screen and (min-width:300px) and (max-width:500px){
+  .taglabel{
+    font-size: 0.7rem;
+  }
+}

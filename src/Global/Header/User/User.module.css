@@ -1,0 +1,71 @@
+.userInfoHeader,
+.userInfoHeaderMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfoHeader > div:first-of-type,
+.userInfoHeaderMobile > div:first-of-type {
+  background: linear-gradient(
+    180deg,
+    #ff0000 0%,
+    #e3e654 20.03%,
+    #7ada84 41.65%,
+    #00e0ff 64.39%,
+    #8206ff 83.79%,
+    #ff008a 100%
+  );
+
+  width: 86px;
+  height: 86px;
+  border-radius: 1000px;
+  padding: 10px;
+  position: relative;
+}
+
+.userInfoHeaderMobile > div:first-of-type {
+  width: 50px;
+  height: 50px;
+}
+
+.userInfoHeader > div:first-of-type > div:first-of-type,
+.userInfoHeaderMobile > div:first-of-type > div:first-of-type {
+  position: absolute;
+  background-color: transparent;
+  width: 78px;
+  height: 78px;
+  border-radius: 1000px;
+  top: 4px;
+  left: 4px;
+}
+
+.userInfoHeaderMobile > div:first-of-type > div:first-of-type {
+  width: 44px;
+  height: 44px;
+  left: 3px;
+  top: 3px;
+}
+
+.userInfoHeader > div:first-of-type > div:first-of-type img,
+.userInfoHeaderMobile > div:first-of-type > div:first-of-type img {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+.userInfoHeaderMobile > div:first-of-type > div:first-of-type img {
+  width: 44px;
+  height: 44px;
+}
+
+.userInfoHeader > span,
+.userInfoHeaderMobile > span {
+  font-weight: bold;
+}
+
+.userInfoHeaderMobile > span {
+  font-size: 0.9rem;
+}

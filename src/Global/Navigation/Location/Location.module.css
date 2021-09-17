@@ -1,0 +1,16 @@
+.location > div:first-of-type button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+.location > div:first-of-type button i {
+  color: #f96d1e;
+  background-color: white;
+}
+
+.location > div:first-of-type p {
+  color: #f96d1e;
+  font-weight: 600;
+  font-size: 0.9rem;
+}

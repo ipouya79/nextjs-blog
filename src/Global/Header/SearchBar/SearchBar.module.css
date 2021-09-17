@@ -1,0 +1,19 @@
+.roundedInput {
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+}
+.roundedIcon {
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+.searchBar > * {
+  background-color: #f0f0f1;
+}
+.searchBar > input:focus {
+  background-color: #f0f0f1;
+}
+
+.smallRoundedIcon {
+  border-radius: 50% !important;
+}

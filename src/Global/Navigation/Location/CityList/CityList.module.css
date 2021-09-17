@@ -1,0 +1,27 @@
+.cityList button:focus {
+  border: none !important;
+}
+
+.cityList > div:first-of-type button,
+.cityList > button {
+  border: none !important;
+  color: #f96d1e;
+}
+
+.cityList > div:first-of-type button:hover,
+.cityList > button:hover {
+  color: #f96d1e;
+}
+
+.cityList ul > li {
+  padding-left: 8px;
+}
+.cityList ul {
+  margin-left: 42px !important;
+  margin-top: 1px !important;
+  border: none !important;
+}
+
+.cityList ul > li span:hover {
+  background-color: white !important;
+}

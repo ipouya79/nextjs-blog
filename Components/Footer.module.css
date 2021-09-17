@@ -1,0 +1,48 @@
+.containerFooter{
+    background-color: #75236c;
+    width: 100%;
+    margin-top: 10rem;
+}
+.imagesFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+margin-top: 4rem;
+}
+.textFooterDiv h4 {
+color: #ffffff;
+font-weight: 700;
+font-size: 1.1rem;
+margin-top: 2rem;
+}
+.textFooterDiv p {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    }
+    .iconFooter{
+        display: inline;
+        color: #ffffff;
+        font-size: 0.9rem;
+   }
+   .iconFooter>i{
+       padding-left: 1rem;
+       padding-right: 1rem;
+   }
+  
+   @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .imagesFooter{
+    margin-top: 1rem;
+    }
+    .iconFooter{
+        display: inline;
+        color: #ffffff;
+        font-size: 0.7rem;
+   }
+   .iconFooter>i{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+}

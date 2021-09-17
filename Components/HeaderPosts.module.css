@@ -1,0 +1,276 @@
+.headerPostsContainer{
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+.bigimg{
+    border-radius: 0.6rem;
+    margin-top: 0.4rem;
+    border-radius: 0.7rem; 
+}
+.imgbiggest{
+    width:26vw ;
+    height: 48vh;
+}
+.imgsmall{
+    width:14vw;
+    height: 23vh;
+border-radius: 0.7rem; 
+margin-top: 0.5rem;
+
+}
+
+.imageCard{
+   width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0.3rem;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+}
+
+.imageCard:hover, .imageCard:focus, .imageCard:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+
+
+.imageContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    bottom:0;
+    transition: all 1s ease-in-out;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 29.69%, rgba(255, 255, 255, 0.93) 33.33%);
+}
+.imageContent p {
+    padding: 0.8rem;
+    width: 99%;
+    position: absolute;
+    bottom: 15%;
+    padding-top: .7rem ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .6rem;
+    line-height: 1rem;
+    text-align: justify ;
+    color: #000000;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.imageContent h3{
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 0;
+    bottom:20% ; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #000000;
+    transition: all 1s ease-in-out;
+}
+.imageCard:hover .imageContent {
+    top: 1%;
+}
+
+.imageCard:hover .imageContent p{
+    opacity: 1;
+}
+.imageCard:hover .imageContent h3{
+    bottom: 45%;
+}
+.imageCardSmall{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0.3rem;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+}
+.imageCardSmall:hover, .imageCardSmall:focus, .imageCardSmall:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+.imageContentSmall{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    bottom:0;
+    transition: all 1s ease-in-out;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 29.69%, rgba(255, 255, 255, 0.93) 33.33%);
+}
+.imageContentSmall p {
+    padding: 0.5rem;
+    width: 98%;
+    position: absolute;
+    bottom: 10%;
+    padding-top: .7rem ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .6rem;
+    line-height: 1rem;
+    text-align: justify ;
+    color: #000000;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.imageContentSmall h3{
+    margin-right: 0.3rem;
+    position: absolute;
+    bottom: 10%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #000000;
+    transition: all 1s ease-in-out;
+}
+
+.imageCardSmall:hover .imageContentSmall {
+    top: 1%;
+}
+
+.imageCardSmall:hover .imageContentSmall p{
+    opacity: 1;
+}
+.imageCardSmall:hover .imageContentSmall h3{
+    bottom: 45%;
+}
+
+
+  @media only screen and (min-width: 781px) and (max-width:1280px) {
+
+    .imageCard:hover .imageContent {
+        top: 5;
+        bottom: 10;
+    }
+    
+    .imageCard:hover .imageContent p{
+        opacity: 1;
+    }
+    
+    .imageCard:hover .imageContent h3{
+        bottom: 60%;
+    }
+    .imageContent h3{
+        margin-right: 0.5rem;
+        bottom: 10%;
+        font-style: normal;
+        font-weight: bold;
+        text-align: right;
+        font-size: 0.7rem;
+        line-height: 1.3rem;
+        color: #000000;
+        transition: all 1s ease-in-out;
+    }
+    .imageContent p {
+        margin-left: 0.2rem;
+        width: 98%;
+        position: absolute;
+        bottom: 5%;
+        padding-top: .7rem ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: .6rem;
+        line-height: 1rem;
+        text-align: right ;
+        color: #000000;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .imageCard:hover .imageContentSmall {
+        top: 5;
+        bottom: 10;
+    }
+    
+    .imageCard:hover .imageContentSmall p{
+        opacity: 1;
+    }
+    
+    .imageCard:hover .imageContentSmall h3{
+        bottom: 50%;
+    }
+    .imageContentSmall h3{
+        margin-right: 0.2rem;
+        bottom: 8%;
+        font-style: normal;
+        font-weight: bold;
+        text-align: right;
+        font-size: 0.6rem;
+        line-height: 1.3rem;
+        color: #000000;
+        transition: all 1s ease-in-out;
+    }
+    .imageContentSmall p {
+        margin-left: 0.2rem;
+        width: 99%;
+        position: absolute;
+        bottom: 1%;
+        padding: .7rem ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: .5rem;
+        line-height: 0.7rem;
+        text-align: center ;
+        color: #000000;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .imgbiggest{
+        width:27vw ;
+        height: 43vh;
+        }
+        .imgsmall{
+        width:15vw;
+        height: 20vh;
+        }
+  }
+  @media only screen and (min-width:781px) and (max-width:920px){
+    .imageContentSmall{
+    width: 70%;
+  }
+  .imageContent{
+    width: 75%;
+  }
+  }
+  @media only screen and (min-width:320px) and (max-width:780px){
+    .imageContent h3{
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .imageContent p{
+        font-size: 0.5rem;
+        padding: 0;
+    }
+    .imageContentSmall h3{
+        font-size: 0.6rem;
+    }
+    .imageContentSmall p{
+        font-size: 0.4rem;
+        padding: 0.1rem;
+    }
+    .imageContent{
+        width: 75%;
+    }
+    .imageContentSmall{
+        width: 75%;
+    }
+    .imageContentSmall p{
+        width: 100%;
+    }
+  }

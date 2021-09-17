@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  padding: 15px;
+  flex-shrink: 0px;
+}
+
+.footer textarea {
+  flex: 1;
+  resize: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  border: none;
+  padding: 8px 12px;
+  height: 42px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.footer textarea::-webkit-scrollbar {
+  display: none;
+}
+.footer button {
+  background-color: transparent;
+  color: purple;
+  font-size: 28px;
+  border: none;
+}

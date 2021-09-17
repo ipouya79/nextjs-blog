@@ -1,0 +1,10 @@
+.Qbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+.Qbtn i {
+  color: purple;
+  font-size: 1.3rem;
+}

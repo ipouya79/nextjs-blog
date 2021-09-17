@@ -1,0 +1,30 @@
+.inputSixField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.inputSixField > label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.inputSixField > div {
+  direction: ltr !important;
+  text-align: end;
+}
+.formFloat > input {
+  border: none !important;
+  appearance: initial !important;
+  -webkit-appearance: initial !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #d3d3d3 !important;
+}
+.formFloat > input:focus {
+  border-bottom: 1px solid #d3d3d3 !important;
+}
+.timerWrapper {
+  display: flex;
+}
+
+.timerWrapper > p {
+  margin-left: 1rem;
+}

@@ -1,0 +1,14 @@
+.singleContainer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.detailSide{
+    margin-right: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px) {
+    .singleContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

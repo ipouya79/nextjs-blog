@@ -1,0 +1,62 @@
+.searchBarUl a {
+  transition: font-size ease-in 0.3s;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.searchBarUl a:hover {
+  color: initial;
+  font-size: 1.2rem;
+}
+
+.searchBarUl {
+  margin-right: 23% !important;
+  overflow-y: scroll;
+  max-height: 400px !important;
+  background-color: white;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.searchBarUl::-webkit-scrollbar {
+  display: none;
+}
+
+.searchHeading {
+  margin-right: 23% !important;
+  margin-bottom: 0 !important;
+  padding: 0 11px 11px 0;
+  color: #6b6b6b !important;
+}
+
+.searchHeading:last-of-type {
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .searchBarUl {
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+  .searchHeading {
+    margin-right: 0 !important;
+    padding: 6px 2px 6px 0;
+    color: #6b6b6b !important;
+    width: 100% !important;
+    font-size: 1.1rem;
+  }
+  .searchBarUl a {
+    transition: font-size ease-in 0.3s;
+    font-size: 0.8rem;
+    margin-left: 0.2rem !important;
+  }
+  .searchBarUl a:hover {
+    color: initial;
+    font-size: 0.8rem;
+  }
+  .searchBarUl i {
+    font-size: 10px;
+  }
+  .searchBarUl li:hover {
+    background-color: #f3f4f6;
+  }
+}
